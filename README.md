@@ -16,7 +16,7 @@ Utilisez donc ces informations pour créer un code intelligent ! (D'autres sont 
 
 ## Architecture
 
-L'architecture logicielle mis en place est **SOA** *(Service Oriented Architecture)* en respectant au mieux les règles d'élégance du code *(clean code)* et *S.O.L.I.D.*.
+L'architecture logicielle mis en place est le **MVC** *(Model-View-Controller)* en respectant au mieux les règles d'élégance du code *(clean code)*.
 
 ## Environnement
 
