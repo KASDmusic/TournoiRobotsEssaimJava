@@ -1,6 +1,6 @@
 # TournoiRobotsEssaimJava
 
-Voici un petit projet personnel auquel je vous invite à participer et dont le concept est le suivant.
+> Voici un petit projet personnel auquel je vous invite à participer et dont le concept est le suivant.
 
 
 
