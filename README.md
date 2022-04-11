@@ -1,5 +1,3 @@
-# TournoiRobotsEssaimJava
-
 > Voici un petit projet personnel auquel je vous invite à participer.
 
 ## Principe
