@@ -13,6 +13,9 @@ Vous devez donc adapter votre logique pour qu'un même code agisse intelligement
 
 Utilisez donc ces informations pour créer un code intelligent ! (D'autres sont également disponibles)
 
+***
+Une documentation est disponible dans le repertoire doc.
+***
 
 ## Architecture
 
