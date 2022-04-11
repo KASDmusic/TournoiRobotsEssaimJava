@@ -11,12 +11,14 @@ Vous devez donc adapter votre logique pour qu'un même code agisse intelligement
 * Chaque robot stocke automatiquement les coordonnées de la balise si ils la croisent.
 * Chaque robot communique automatiquement les coordonnées de la balise aux autres robots si il l'a déjà croisé.
 
-Utilisez donc ces informations pour créer un code intelligent ! (D'autres sont également disponibles)  
-*Une documentation est disponible dans le repertoire doc.*
+Utilisez donc ces informations pour créer un code intelligent ! (D'autres sont également disponibles)
 
 ## Architecture
 
-L'architecture logicielle mis en place est le **MVC** *(Model-View-Controller)* en respectant au mieux les règles d'élégance du code *(clean code)*.
+L'architecture logicielle mis en place est le **MVC** *(Model-View-Controller)* en respectant au mieux les règles d'élégance du code *(clean code)*.  
+  
+* Le repertoire *"src"* contient le code source du jeu.
+* Le reprtoire *"doc"* contient la documentation relative à la participation au jeu.
 
 ## Environnement
 
