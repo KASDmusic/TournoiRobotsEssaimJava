@@ -1,6 +1,4 @@
-Voici un petit projet personnel auquel je vous invite à participer.
 
-## Principe
 ***
 Dans un espace donné, un nombre X de robots ainsi qu'une balise sont disposés aléatoirement. \n
 Le principe est de désamorcer la balise le plus rapidement possible.
