@@ -1,8 +1,20 @@
 # TournoiRobotsEssaimJava
 
-Exemple architectural de projet avec les technologies Java EE.
-Ce projet est sous licence **CeCILL** (**CE**A **C**NRS **I**NRIA **L**ogiciel **L**ibre),
-une licence de logiciel libre compatible avec la **GNU GPL**.
+Voici un petit projet personnel auquel je vous invite à participer et dont le concept est le suivant.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 > En savoir plus sur la licence [CeCILL](http://cecill.info/index.fr.html)
 ## Objectifs
