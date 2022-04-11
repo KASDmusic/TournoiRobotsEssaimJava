@@ -20,20 +20,14 @@ L'architecture logicielle mis en place est **SOA** *(Service Oriented Architectu
 
 ## Environnement
 
-Ce projet est réalisé en **Java 11** *(OpenJDK)*. et **Jakarta EE 8**.
-Il utilise l'outil **Maven** en version 3.6.2.
+Ce projet est réalisé en **Java 11** *(OpenJDK)*.
 
 ### Exécution
 
 Récupération du projet:
 ~~~
-    git clone https://github.com/ZelmoTheDragon/whiteapp.git
-    cd whiteapp
-    mvn install
+    git clone https://github.com/KASDmusic/TournoiRobotsEssaimJava.git
 ~~~
 
-> En savoir plus sur la licence [CeCILL](http://cecill.info/index.fr.html)
-
-* Les technologies Jakarta EE
-* La structure d'un projet type *EAR*
-* Le serveur d'application Payara et Payara Micro
+> Lien pour uploader votre code, voir le classement et autres : [kenzo-dev.fr/tt](http://kenzo-dev.fr)
+> Lien vers mon site web : [kenzo-dev.fr](http://kenzo-dev.fr)
