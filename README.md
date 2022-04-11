@@ -4,7 +4,7 @@
 
 ## Principe
 
-Dans un espace donné, un nombre X de robots ainsi qu'une balise sont disposés aléatoirement.
+Dans un espace donné, un nombre X de robots ainsi qu'une balise sont disposés aléatoirement. \n
 Le principe est de désamorcer la balise le plus rapidement possible.
 Seulement, chaque robot doit fonctionner avec le même code.
 Vous devez donc adapter votre logique pour qu'un même code agisse intelligement en fonction de chaques circonstances !
