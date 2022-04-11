@@ -5,10 +5,13 @@
 ## Principe
 
 Dans un espace donné, un nombre X de robots ainsi qu'une balise sont disposés aléatoirement.
+Le principe est de désamorcer la balise le plus rapidement possible.
+Seulement, chaque robot doit fonctionner avec le même code.
+Vous devez donc adapter votre logique pour qu'un même code agisse intelligement en fonction de chaques circonstances !
 
-* Les technologies Jakarta EE
-* La structure d'un projet type *EAR*
-* Le serveur d'application Payara et Payara Micro
+### Informations supplémentaires
+
+Chaque 
 
 ## Architecture
 
@@ -29,3 +32,7 @@ Récupération du projet:
 ~~~
 
 > En savoir plus sur la licence [CeCILL](http://cecill.info/index.fr.html)
+
+* Les technologies Jakarta EE
+* La structure d'un projet type *EAR*
+* Le serveur d'application Payara et Payara Micro
