@@ -8,6 +8,11 @@ Vous devez donc adapter votre logique pour qu'un même code agisse intelligement
 #### Informations supplémentaires
 
 * Chaque Robot dispose d'une portée grâce à laquelle il peut soit désamorcer la balise, soit communiquer des informations avec d'autres robots.
+* Chaque robot stocke automatiquement les coordonnées de la balise si ils la croisent.
+* Chaque robot communique automatiquement les coordonnées de la balise aux autres robots si il l'a déjà croisé.
+
+Utilisez donc ces informations pour créer un code dynamique ! (D'autres sont également disponible)
+
 
 ## Architecture
 
