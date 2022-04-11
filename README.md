@@ -1,25 +1,10 @@
 # TournoiRobotsEssaimJava
 
-> Voici un petit projet personnel auquel je vous invite à participer et dont le concept est le suivant.
+> Voici un petit projet personnel auquel je vous invite à participer.
 
+## Principe
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-> En savoir plus sur la licence [CeCILL](http://cecill.info/index.fr.html)
-## Objectifs
-
-Mettre en œuvre:
+Dans un espace donné, un nombre X de robots ainsi qu'une balise sont disposés aléatoirement.
 
 * Les technologies Jakarta EE
 * La structure d'un projet type *EAR*
@@ -42,3 +27,5 @@ Récupération du projet:
     cd whiteapp
     mvn install
 ~~~
+
+> En savoir plus sur la licence [CeCILL](http://cecill.info/index.fr.html)
