@@ -12,10 +12,7 @@ Vous devez donc adapter votre logique pour qu'un même code agisse intelligement
 * Chaque robot communique automatiquement les coordonnées de la balise aux autres robots si il l'a déjà croisé.
 
 Utilisez donc ces informations pour créer un code intelligent ! (D'autres sont également disponibles)
-
-***
-Une documentation est disponible dans le repertoire doc.
-***
+*Une documentation est disponible dans le repertoire doc.*
 
 ## Architecture
 
