@@ -1,7 +1,5 @@
-package src;
-
-import src.model.Terrain;
-import src.view.MainFrame;
+import model.Terrain;
+import view.MainFrame;
 
 public class Controleur 
 {	

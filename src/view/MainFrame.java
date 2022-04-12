@@ -1,8 +1,9 @@
-package src.view;
+package view;
+
 import javax.swing.*;
 
-import src.model.Robot;
-import src.model.Terrain;
+import model.Robot;
+import model.Terrain;
 
 import java.awt.*;
 
