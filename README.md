@@ -19,6 +19,7 @@ Pour plus d'informations, lisez la documentation.
 L'architecture logicielle mis en place est le **MVC** *(Model-View-Controller)* en respectant au mieux les règles d'élégance du code *(clean code)*.  
   
 * Le repertoire *src* contient le code source du jeu.
+* Le repertoire *src* contient le code source du jeu.
 * Le reprtoire *doc* contient la documentation relative à la participation au jeu.
 
 ## Environnement
