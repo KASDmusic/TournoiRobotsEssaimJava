@@ -32,5 +32,5 @@ Récupération du projet:
     git clone https://github.com/KASDmusic/TournoiRobotsEssaimJava.git
 ~~~
 
-> Lien pour uploader votre code, voir le classement et autres : [non]([https://google.com](https://github.com/KASDmusic/ClientTournoiRobotsEssaimJava)) 
+> Lien pour uploader votre code, voir le classement et autres : [non]([https://github.com/KASDmusic/ClientTournoiRobotsEssaimJava]) 
 
