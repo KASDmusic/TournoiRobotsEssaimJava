@@ -1,1 +1,2 @@
-- empecher bouclage infini
+CONTRAINTES AVANT V1.0
+    - paramètres dans fichiers executions (Verbose / ihm)
