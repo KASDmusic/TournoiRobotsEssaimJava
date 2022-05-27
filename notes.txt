@@ -1,2 +1,1 @@
-- Changer architecture PiloteRobot;
-- Changer methode PiloteRobot pilote() de void à char
+- empecher bouclage infini

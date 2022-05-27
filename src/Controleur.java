@@ -26,7 +26,7 @@ public class Controleur
 				//Condition Communication Robot
 				this.terrain.communicationRobot();
 				
-				this.terrain.getEnsPiloteRobot().get(i).pilote();
+				this.terrain.getEnsRobots().get(i).move();
 			}
 			
 			this.mainFrame.repaint();

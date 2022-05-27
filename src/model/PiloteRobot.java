@@ -1,28 +1,24 @@
 package model;
 
-public class PiloteRobot 
+public class PiloteRobot implements Pilotable
 {	
-	private Robot robot;
+	private RobotViewer robotViewer;
+
+	public PiloteRobot() {}
 	
-	public PiloteRobot(Robot robot)
+	public PiloteRobot(RobotViewer robotViewer)
 	{
-		this.robot = robot;
+		this.robotViewer = robotViewer;
 	}
+
+	public void setRobotViewer(RobotViewer robotViewer) { this.robotViewer = robotViewer; }
 	
 	//A Completer
-	public void pilote()
+	public char pilote()
 	{
-		
-		char[] tab = new char[] {'N', 'S', 'E', 'W'};
+		char[] tab = new char[] {'N', 'S', 'E', 'W', ' '};
 		char mouv = tab[(int)(Math.random() * tab.length)];
 		
-		
-		robot.avancer(mouv);
-		
-		//robot.avancer('S');
-	}
-	
-	public static void main(String[] args) {
-		System.out.println("\\n");
+		return mouv;
 	}
 }

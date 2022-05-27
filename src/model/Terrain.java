@@ -20,35 +20,32 @@ public class Terrain
 	public static int nbTour = 0;
 	
 	private ArrayList<Robot> ensRobots;
-	private ArrayList<PiloteRobot> ensPiloteRobots;
 	private Balise balise;
 	
 	public Terrain()
 	{
-		//Creation ensemble robot
-		this.ensRobots = new ArrayList<Robot>();
-		for(int i=0 ; i<Terrain.NB_RBT ; i++)
-		{
-			int x = Terrain.MIN_X + (int)(Math.random() * (Terrain.MAX_X - Terrain.MIN_X + 1));
-			int y = Terrain.MIN_Y + (int)(Math.random() * (Terrain.MAX_Y - Terrain.MIN_Y + 1));
-			this.ensRobots.add(new Robot(x, y));
-		}
-		
 		//Creation Balise
 		int x = Terrain.MIN_X + (int)(Math.random() * (Terrain.MAX_X - Terrain.MIN_X + 1));
 		int y = Terrain.MIN_Y + (int)(Math.random() * (Terrain.MAX_Y - Terrain.MIN_Y + 1));
 		this.balise = new Balise(x, y, Terrain.TOURS_NECESSAIRES);
-		
-		//Creation ensemble pilote robot
-		this.ensPiloteRobots = new ArrayList<PiloteRobot>();
+
+		//Creation ensemble robot et ensemble pilote robot
+		PiloteRobot piloteRobot;
+		Robot rbt;
+		this.ensRobots = new ArrayList<Robot>();
 		for(int i=0 ; i<Terrain.NB_RBT ; i++)
 		{
-			this.ensPiloteRobots.add(new PiloteRobot(this.ensRobots.get(i)));
+			x = Terrain.MIN_X + (int)(Math.random() * (Terrain.MAX_X - Terrain.MIN_X + 1));
+			y = Terrain.MIN_Y + (int)(Math.random() * (Terrain.MAX_Y - Terrain.MIN_Y + 1));
+
+			piloteRobot = new PiloteRobot();
+			rbt = new Robot(x, y, piloteRobot);
+			piloteRobot.setRobotViewer(rbt.toRobotViewer(rbt));
+			this.ensRobots.add(rbt);
 		}
 	}
 	
 	public ArrayList<Robot> 	  getEnsRobots() 	  { return this.ensRobots; }
-	public ArrayList<PiloteRobot> getEnsPiloteRobot() { return this.ensPiloteRobots; }
 	public Balise           	  getBalise()    	  { return this.balise; }
 
 	public void detectionCreuserBalise()
@@ -62,8 +59,12 @@ public class Terrain
 			if(norme <= Terrain.RAYON_DETECT)
 			{
 				this.balise.creuser();
-				r.setXBalise(this.balise.getX());
-				r.setYBalise(this.balise.getY());
+
+				if(r.getXBalise() != -1)
+				{
+					r.setXBalise(this.balise.getX());
+					r.setYBalise(this.balise.getY());
+				}
 			}
 		}
 	}
@@ -82,19 +83,19 @@ public class Terrain
 					
 					if(norme <= Terrain.RAYON_DETECT*2)
 					{
-						if(!r1.getEnsRobots().contains(r2))
-							r1.getEnsRobots().add(r2);
+						if(!r1.getEnsRobotsContact().contains(r2))
+							r1.getEnsRobotsContact().add(r2);
 						
-						if(!r2.getEnsRobots().contains(r1))
-							r2.getEnsRobots().add(r1);
+						if(!r2.getEnsRobotsContact().contains(r1))
+							r2.getEnsRobotsContact().add(r1);
 					}
 					else
 					{
-						if(r1.getEnsRobots().contains(r2))
-							r1.getEnsRobots().remove(r2);
+						if(r1.getEnsRobotsContact().contains(r2))
+							r1.getEnsRobotsContact().remove(r2);
 						
-						if(r2.getEnsRobots().contains(r1))
-							r2.getEnsRobots().remove(r1);
+						if(r2.getEnsRobotsContact().contains(r1))
+							r2.getEnsRobotsContact().remove(r1);
 					}
 				}
 			}
