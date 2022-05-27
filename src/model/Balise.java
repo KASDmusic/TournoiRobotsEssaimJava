@@ -18,4 +18,14 @@ public class Balise
 	public int getToursRestants() { return toursRestants; }
 	
 	public void creuser() { this.toursRestants--; }
+
+	@Override
+	public String toString()
+	{
+		String res = "Balise \n";
+		res += "\tx:" + this.x + " | y:" + this.y + "\n";
+		res += "\ttourRestants:" + this.toursRestants;
+
+		return res;
+	}
 }

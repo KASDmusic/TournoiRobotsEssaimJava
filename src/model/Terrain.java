@@ -101,4 +101,31 @@ public class Terrain
 			}
 		}
 	}
+
+	@Override
+	public String toString()
+	{
+		String res = "Terrain (tour " + Terrain.nbTour + "/" + Terrain.NB_TOURS_LIMITE + ")\n";
+		
+		res += "\n";
+		res += "\n";
+
+		String[] tabStr = this.balise.toString().split("\n");
+		for(String s : tabStr)
+			res += "\t" + s + "\n";
+		
+		res += "\n";
+		res += "\n";
+		
+		for(Robot rbt : this.ensRobots)
+		{
+			tabStr = rbt.toString().split("\n");
+			for(String s : tabStr)
+				res += "\t" + s + "\n";
+			
+			res += "\n";
+		}
+		
+		return res;
+	}
 }
