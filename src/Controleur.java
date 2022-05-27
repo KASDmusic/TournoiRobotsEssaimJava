@@ -34,6 +34,8 @@ public class Controleur
 			try { Thread.sleep(10); }
 			catch(Exception e) { System.err.println(e); }
 		}
+
+		System.out.println(Terrain.nbTour + " " + this.terrain.getBalise().getToursRestants());
 	}
 	
 	public static void main(String[] args) 
