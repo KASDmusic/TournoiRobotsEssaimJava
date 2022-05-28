@@ -1,2 +1,4 @@
 CONTRAINTES AVANT V1.0
     - paramètres dans fichiers executions (bat)
+    - Faire documentation
+    - Completer Readme
