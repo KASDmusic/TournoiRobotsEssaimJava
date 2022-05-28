@@ -1,5 +1,7 @@
 # ClientTournoiRobotsEssaimJava
 
+![Screen](https://github.com/KASDmusic/ClientTournoiRobotsEssaimJava/blob/main/img/gui.png)
+
 ## Résumé
 
 Dans un espace donné, un nombre X de robots ainsi qu'une balise sont disposés aléatoirement.  
