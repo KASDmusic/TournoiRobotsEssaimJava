@@ -33,7 +33,7 @@ Ce projet est réalisé en **Java 11** *(OpenJDK)*.
 
 Récupération du projet:
 ~~~
-    git clone https://github.com/KASDmusic/TournoiRobotsEssaimJava.git
+    git clone https://github.com/KASDmusic/ClientTournoiRobotsEssaimJava.git
 ~~~
 
 > Lien pour uploader votre code, voir le classement et autre : [non](https://github.com/KASDmusic/ClientTournoiRobotsEssaimJava) 
