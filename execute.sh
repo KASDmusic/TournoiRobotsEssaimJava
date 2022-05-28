@@ -11,6 +11,8 @@ javac -d ../bin/ Controleur.java
 cd ..
 cd bin
 
-java Controleur
+str="'$*'"
+
+java Controleur $str
 
 cd ..

@@ -1,15 +1,22 @@
 import model.Terrain;
 import view.MainFrame;
 
+import java.util.Arrays;
+
 public class Controleur 
 {	
 	private Terrain terrain;
 	private MainFrame mainFrame;
 	
-	public Controleur()
+	public Controleur(boolean verbose, boolean graphic)
 	{
 		this.terrain = new Terrain();
-		this.mainFrame = new MainFrame(this.terrain);
+
+		if(graphic)
+			this.mainFrame = new MainFrame(this.terrain);
+
+		if(verbose)
+			System.err.println(this.terrain);
 		
 		while(this.terrain.getBalise().getToursRestants() > 0 && Terrain.nbTour < Terrain.NB_TOURS_LIMITE)
 		{
@@ -23,13 +30,17 @@ public class Controleur
 				if(this.terrain.getBalise().getToursRestants() <= 0)
 					break;
 				
-				//Condition Communication Robot
+				//Condition communication Robot
 				this.terrain.communicationRobot();
 				
 				this.terrain.getEnsRobots().get(i).move();
+
+				if(verbose)
+					System.err.println(this.terrain);
 			}
 			
-			this.mainFrame.repaint();
+			if(graphic)
+				this.mainFrame.repaint();
 			
 			try { Thread.sleep(10); }
 			catch(Exception e) { System.err.println(e); }
@@ -40,7 +51,21 @@ public class Controleur
 	
 	public static void main(String[] args) 
 	{
-		new Controleur();
+		boolean verbose = false;
+		boolean graphic = false;
+
+		for(String s : args)
+		{
+			s = s.replaceAll("'", "").toLowerCase();
+
+			if(s.equals("-v"))
+				verbose = true;
+				
+			if(s.equals("-g"))
+				graphic = true;
+		}
+
+		new Controleur(verbose, graphic);
 	}
 
 }

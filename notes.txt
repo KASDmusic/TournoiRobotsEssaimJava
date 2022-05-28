@@ -1,2 +1,2 @@
 CONTRAINTES AVANT V1.0
-    - paramètres dans fichiers executions (Verbose / ihm)
+    - paramètres dans fichiers executions (bat)
