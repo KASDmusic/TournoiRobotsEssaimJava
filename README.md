@@ -38,5 +38,5 @@ Récupération du projet:
 
 > Lien pour uploader votre code, voir le classement et autre : [non](https://github.com/KASDmusic/ClientTournoiRobotsEssaimJava) 
 \
-> Lien vers le repository git du serveur : [ServerTournoiRobotsEssaimJava](https://github.com/KASDmusic/ServerTournoiRobotsEssaimJava)  
+> Lien vers le repository GitHub du serveur : [ServerTournoiRobotsEssaimJava](https://github.com/KASDmusic/ServerTournoiRobotsEssaimJava)  
 
