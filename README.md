@@ -1,4 +1,4 @@
-# ClientTournoiRobotsEssaimJava
+# swarm-robot-programming-tournament-client
 
 ![GUI](https://github.com/KASDmusic/ClientTournoiRobotsEssaimJava/blob/main/img/gui.png)
 
